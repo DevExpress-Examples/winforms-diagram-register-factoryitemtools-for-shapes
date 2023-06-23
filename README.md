@@ -1,6 +1,6 @@
 # WinForms DiagramControl - Register FactoryItemTools for Regular and Custom Shapes
 
-This example demonstrates how to register `FactoryItemTools` for regular shapes and shapes that are created from SVG images or ShapeTemplates.
+This example demonstrates how to register `FactoryItemTools` for regular shapes and shapes that are created from SVG images or ShapeTemplates. `FactoryItemTools` allow you to create custom tools that are available in the Toolbox at runtime.
 To register a `FactoryItemTool` you need to [create](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.DiagramStencil.Create.overloads) a stencil or use one of existed stencils and pass your `FactoryItemTool` instance to the `RegisterTool` method:
 
 ```cs
